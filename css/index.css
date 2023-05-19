@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-    font-family:"Playfair Display", serif;
+    font-family:"Poppins", sans-serif;
     font-size: 38px;
     font-weight: 400;
 }
@@ -37,24 +37,47 @@ p {
     color: white;
 }
 
-.jumbotron {
-    background-image: url(/images/hawaii-island.jpg);
+.hawaii {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.25)), url("../images/hawaii-island.jpg");
     background-repeat: no-repeat;
+    background-color: rgba(255, 118, 0, 0.70);
+    background-size: cover;
+    background-position: top;
+    height: 30vh;
 }
 
 .media {
-    margin: 1rem 4rem;
+    margin: 3rem 4rem;
 }
 
 .card-deck {
-    margin: 1rem 3rem;
+    margin: 3rem 3rem;
 }
 
 .centerHeader {
-    text-align: center;
+    text-align: start;
+    margin-left: 4rem;
 }
 
-.cardVertical {
-    margin: 1rem 3rem;
-    justify-content: center;
+.problemStatement {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7)), url("../images/statementbackground.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(255, 118, 0, 0.70);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.prototypeHawaii {
+    width: 50%;
+    border: none;
+    border-radius: 16px;
 }
